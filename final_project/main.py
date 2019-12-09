@@ -80,11 +80,13 @@ def get_cells(tile_size: int) -> List[Cell]:
     print(len(cells))
     # return cells[:round(len(cells) * 0.9)]
     return [
-        Cell(0, 1),
+        Cell(0, 0),
         Cell(1, 0),
-        Cell(2, 0),
-        Cell(2, 1),
-        Cell(2, 2),
+        Cell(1, 2),
+        Cell(3, 1),
+        Cell(4, 0),
+        Cell(5, 0),
+        Cell(6, 0),
     ]
 
 
